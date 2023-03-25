@@ -4,7 +4,6 @@ require("dotenv").config()
 const { GOERLI_URL, PRIVATE_KEY } = process.env
 
 module.exports = {
-  defaultNetwork: "goerli",
   networks: {
     goerli: {
       url: GOERLI_URL,
